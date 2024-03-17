@@ -1,0 +1,21 @@
+{
+    "name": "sadik/my_plugin2",
+    "description": "This is a my first package",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "sadik"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "My\\Plugin\\": "includes/"
+        },
+        "files": []
+    }
+
+}
